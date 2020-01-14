@@ -24,21 +24,25 @@ npm run e2e
 # run all tests
 npm test
 ```
+## Feature：
+* 使用Muse-ui构建主要前端框架
+* element-ui调用图片上传并获取返回信息
+* Material Design作为主要设计语言
+* 各屏幕尺寸dpi适配
+* 前端内各组件按需加载(lazy load)
+* gzip压缩
 
-
-# TODO:
-* tab栏在发布后、iphone上的上下滚动错位问题
+## TODO:
+* tab栏在发布后、iPhone上的上下滚动错位问题
 * 分类筛选时请求次数过多问题
 * 部分浏览器上图床图片显示，改本地引入
 * 发布者的联系方式（微信 qq 邮箱 手机等接口，以及相应的实现）
-* 首页滚动显示、首页滚动不自然
 * 主要页面的滚动问题
-## 低优先todo：
-*  管理面板
-*  部分引入elementui
-*  将上传图片那一块组件独立出来到components里去
-*  本地js改cdn引入
-*  字体 图标等改引用，cdn-本地？（考虑中）
+* 管理面板
+* 部分引入elementui
+* 将上传图片组件独立出来到components中
+* js改cdn引入
+* 字体、图标等改为本地引入
 
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
